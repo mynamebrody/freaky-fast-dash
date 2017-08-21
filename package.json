@@ -1,0 +1,46 @@
+{
+  "name": "freaky-fast-dash",
+  "version": "1.0.0",
+  "description": "Order Jimmy John's with Amazon Dash Button",
+  "main": "app.js",
+  "dependencies": {
+    "Jimmy-Johns": "^0.1.2",
+    "dash-button": "^3.1.0",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scan": "dash-button scan",
+    "start": "sudo node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bhberson@github.com/bhberson/freaky-fast-dash.git"
+  },
+  "keywords": [
+    "Jimmy Johns",
+    "Jimmy John's",
+    "Sub",
+    "API",
+    "Sandwich",
+    "Automation",
+    "Amazon",
+    "AmazonDash",
+    "Dash",
+    "Button"
+  ],
+  "author": {
+    "name": "Brody Berson",
+    "email": "brody.berson@gmail.com",
+    "url": "http://www.brodyberson.com"
+  },
+  "contributors": [
+    {}
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhberson/freaky-fast-dash/issues"
+  },
+  "homepage": "https://github.com/bhberson/freaky-fast-dash#readme"
+}

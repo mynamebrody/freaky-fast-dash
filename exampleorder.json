@@ -1,0 +1,29 @@
+{
+  "dashMacAddress":"ff:ff:ff:ff:ff:ff",
+  "user_data":{
+    "email":"johnsmith@example.com", //your Jimmy John's account email
+    "password":"freakyfast",    //your Jimmy John's account password
+    "first_name":"NAME",
+    "last_name":"NAME",
+    "phone":"444-444-4444",
+    "tip_amount":"2",         //Tip amount (in dollars)
+    "location_id":1106,       //More on this below
+    "is_test":true,
+    "verbose":true,
+    "address": {
+      "line1": "123 W Apple Street",
+      "line2": "",
+      "city": "Little Rock",
+      "state": "NY",
+      "zipcode":"90501",
+      "longitude":-100.1692740, //These should be YOUR lat/long
+      "latitude":60.0719220
+    },
+    "payment_info": {
+      "exp_month":"01",
+      "exp_year":2001,
+      "cvv":123
+    }
+  }
+}
+
