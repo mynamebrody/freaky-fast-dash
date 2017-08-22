@@ -1,0 +1,89 @@
+{
+  "DashMacAddress":"ff:ff:ff:ff:ff:ff",
+  "Id": 123456,
+  "FirstName": "John",
+  "LastName": "Smith",
+  "Email": "john.smith@example.com",
+  "PhoneHome": "",
+  "PhoneWork": "",
+  "PhoneMobile": "123-345-6789",
+  "Points": "0",
+  "Password": null,
+  "AcceptedTermsAndConditions": true,
+  "OptInNews": false,
+  "OptInPromos": false,
+  "AllowHTMLEmails": true,
+  "IsAnonymousUser": false,
+  "CustomerAddresses": { 
+    "DefaultAddress": "6",
+    "Addresses": [
+      {
+        "FriendlyName": "My Crib",
+        "Company": "",
+        "GateCode": "456",
+        "DeliveryInstructions": "Call and I'll buzz you in.",
+        "SaveInstructions": false,
+        "CacheAddress": false,
+        "SaveAsDefault": false,
+        "Index": "1",
+        "AddressLine1": "123 Downtown Blvd",
+        "AddressLine2": "456",
+        "City": "Hollywood",
+        "State": "CA",
+        "Zipcode": "90210",
+        "Country": "USA",
+        "DisplayText": "123 Downtown Blvd, 456, Hollywood, CA 90210",
+        "Longitude": -85.67112,
+        "Latitude": 42.97348
+      }
+    ]
+  },
+  "DefaultLocationId": 1064,
+  "CreditCards": 
+   [ { 
+      "Index": "1",
+       "FriendlyName": "Visa(***1234)",
+       "MaskedName": "Visa(***1234)",
+       "CardNumber": null,
+       "CardHolder": "John Smith",
+       "SecurityCode": null,
+       "EncryptedCardNumber": null,
+       "CreditCardTypeName": "",
+       "CreditCardTypeCode": "Visa",
+       "BillingPhone": "",
+       "FirstName": "",
+       "MiddleName": "",
+       "LastName": "",
+       "IssueNumber": null,
+       "IsEncrypted": true,
+       "IsMaskable": false,
+       "ExpiryYY": 22,
+       "ExpiryMM": 12,
+       "FromYY": 0,
+       "FromMM": 0,
+       "IsDefaultPaymentMethod": true,
+       "BillingAddresses": [
+          {
+            "Index": "billing",
+            "AddressLine1": "123 Downtown Blvd",
+            "AddressLine2": "456",
+            "City": "Hollywood",
+            "State": "CA",
+            "Zipcode": "90210",
+            "Country": "USA",
+            "DisplayText": "",
+            "Longitude": 0,
+            "Latitude": 0
+          }
+        ]
+       } ],
+  "GiftCards": [],
+  "FavoriteItems": 
+   [ { "OrderItemId": 1,
+       "Size": "Regular",
+       "FriendlyName": "Go To Club",
+       "MenuItemName": "#8 BILLY CLUB®",
+       "Options": ["Add Oregano","French Bread","Cut in half","No Tomato","Grey Poupon Dijon Mustard (EZ)","No Mayo"] } ],
+  "GroupOrderEmailAddresses": [],
+  "InstantOrderInfo": null 
+}

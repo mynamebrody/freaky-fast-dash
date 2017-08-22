@@ -6,6 +6,6 @@ node_modules
 
 # ignore the order files,
 *.json
-# except exampleorder.json
-!exampleorder.json
+# except exampleUser.json
+!exampleUser.json
 !package.json

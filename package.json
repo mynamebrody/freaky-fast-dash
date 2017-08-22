@@ -4,9 +4,10 @@
   "description": "Order Jimmy John's with Amazon Dash Button",
   "main": "app.js",
   "dependencies": {
-    "Jimmy-Johns": "^0.1.2",
     "dash-button": "^3.1.0",
-    "prompt": "^1.0.0"
+    "prettyjson": "^1.2.1",
+    "prompt": "^1.0.0",
+    "request": "^2.81.0"
   },
   "devDependencies": {},
   "scripts": {
