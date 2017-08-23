@@ -1,6 +1,7 @@
 const prompt = require('prompt'),
     request = require('request'),
-    prettyjson = require('prettyjson');
+    prettyjson = require('prettyjson'),
+    jsonfile = require('jsonfile');
 
 console.log('Jimmy Johns Login\n');
 prompt.message = 'FreakyFast'.red;
@@ -55,7 +56,7 @@ prompt.get(prompt_schema, function (err, result) {
         if (err) {
             return console.error('\nAccount Login failed:', err);
         }
-        
+
         let jsonOptions = {
                 keysColor: 'magenta',
                 dashColor: 'red',
@@ -63,6 +64,16 @@ prompt.get(prompt_schema, function (err, result) {
                 numberColor: 'green'
             };
         console.log('\nAccount Login successful! API responded with: \n', prettyjson.render(body.Customer, jsonOptions));
+
+        let file = './data.json'
+        var write_obj = {
+            DashMacAdd: result.dash,
+            Customer: body.Customer
+        };
+         
+        jsonfile.writeFile(file, write_obj, {spaces: 2}, function (err) {
+          console.error(err)
+        })
 
         // TODO: Generate ./user.json File
     };

@@ -1,5 +1,7 @@
 const dash_button = require('dash-button'),
-	prettyjson = require('prettyjson');
+	prettyjson = require('prettyjson'),
+	jsonfile = require('jsonfile');
+	
 const user_config = require('./user.json');
 
 const DASH_BUTTON_MAC_ADDRESS = user_config["DashMacAddress"];
